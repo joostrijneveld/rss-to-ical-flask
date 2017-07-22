@@ -7,8 +7,6 @@ import os
 
 app = Flask(__name__)
 
-# TODO make this dynamic
-
 if not os.environ['RSS_FEED_URL']:
     sys.exit(1)
 
